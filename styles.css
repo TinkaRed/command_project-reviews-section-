@@ -53,7 +53,7 @@ margin-left: 20px;
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
-    overflow-x: auto; /* Додаємо горизонтальний свайп */
+    overflow-x: auto; /* horizontal swiper */
 }
 
 /* hiding the overflow (scroll is not visible */
@@ -111,7 +111,8 @@ text-align: center;
 display: flex;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1289) {
+@media screen and (min-width: 768px) {
+
     .reviews-container {
     max-width: 768px;
     margin-left: 32px;
@@ -129,6 +130,7 @@ display: flex;
         width: 704px;
         margin-left: auto;
         margin-right: auto;
+
 }
 }
 @media screen and (min-width: 1280px) {
@@ -142,8 +144,10 @@ display: flex;
 
     .reviews-list {
     width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 65px;
+    margin-right: 65px;
+    /* margin-left: auto;
+    margin-right: auto; */
     justify-content: center;
     }
 }
